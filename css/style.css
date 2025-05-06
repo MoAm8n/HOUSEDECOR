@@ -13,6 +13,9 @@
 body{
     font-family: "Roboto", sans-serif;
 }
+main{
+    overflow: hidden;
+}
 header{
     background-color: var(--bg-color);
 }
