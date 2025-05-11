@@ -764,16 +764,16 @@ del{
     cursor: pointer;
 }
 .item-like-top1::after{
-    background-image: url(../image/like/like1.png); 
+    background-image: url(../image/like/like1.png);
 }
 .item-like-top2::after{
-    background-image: url(../image/like/like2.png); 
+    background-image: url(../image/like/like2.png);
 }
 .item-like-top3::after{
-    background-image: url(../image/like/like3.png); 
+    background-image: url(../image/like/like3.png);
 }
 .item-like-top4::after{
-    background-image: url(../image/like/like4.png); 
+    background-image: url(../image/like/like4.png);
 }
 .item-like-top1::after,
 .item-like-top2::after,
@@ -853,9 +853,15 @@ del{
     width: 260px;
     color: #707070;
 }
-.sellers a span{
+.sellers span{
     color: var(--btn-color);
     text-decoration: underline;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.sellers span:hover{
+    transform: scale(1.1);
+    position: absolute;
 }
 @media(max-width: 768px){
     .sellers .items-sellers{
